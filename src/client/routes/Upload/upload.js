@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './upload.css';
 
-// import UploadTemplate from './upload.js';
+import UploadTemplate from './upload.jsx';
 export default class Upload extends Component {
   state = { 
     answer: null,
@@ -18,9 +18,7 @@ export default class Upload extends Component {
 
   render() {
     return (
-      <div className="jumbotron">
-        <h1 className="display-3">upload</h1>
-      </div>
+      <UploadTemplate />
     );
   }
 }

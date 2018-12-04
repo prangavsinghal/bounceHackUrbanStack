@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './approve.css';
 
-// import ApproveTemplate from './approve.jsx';
+import ApproveTemplate from './approve.jsx';
 export default class Approve extends Component {
 
   state = { 
@@ -19,9 +19,7 @@ export default class Approve extends Component {
   render() {
   
     return (
-      <div className="jumbotron">
-        <h1 className="display-3">Approve</h1>
-      </div>
+      <ApproveTemplate />
     );
   }
 }

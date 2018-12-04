@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './search.css';
 
-// import SearchTemplate from './search.js';
+import SearchTemplate from './search.jsx';
 export default class Search extends Component {
   state = { 
     answer: null,
@@ -19,9 +19,7 @@ export default class Search extends Component {
   render() {
     
     return (
-      <div className="jumbotron">
-        <h1 className="display-3">search</h1>
-      </div>
+      <SearchTemplate  />
     );
   }
 }
