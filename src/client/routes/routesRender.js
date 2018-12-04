@@ -6,7 +6,6 @@ function RoutesRender(route){
     return (
       <Route
         path={route.path}
-        exact={route.exact}
         component={route.component}
       />
     );
