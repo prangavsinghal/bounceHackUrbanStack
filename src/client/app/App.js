@@ -18,7 +18,7 @@ class App extends Component {
       <Router>
         <div className="App">
         <Header />
-          <div className="container">
+          <div className="container mainContainer">
             <Switch>
               {routesConfig.map((route, i) => (<RoutesRender key={i} {...route} />))}
             </Switch>
