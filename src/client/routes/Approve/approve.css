@@ -1,0 +1,25 @@
+h1 {
+  color:#343;
+}
+
+image{
+  height: 100%;
+  width: 100%;
+}
+
+#background{
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+}

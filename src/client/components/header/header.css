@@ -1,0 +1,50 @@
+.app-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    padding: 16px;
+    text-align: left;
+    z-index: 1;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.app-header .icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+}
+
+.title {
+    /* display: inline-block; */
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-align: left;
+    color: rgba(0, 0, 0, .86);
+    padding-left: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+
+.app-header #icon {
+    fill-opacity: .5;
+    float: left;
+}
+
+#links{
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-align: left;
+    color: rgba(0, 0, 0, .86);
+    padding-left: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: right;
+}
