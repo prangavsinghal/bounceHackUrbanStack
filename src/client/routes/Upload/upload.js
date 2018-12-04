@@ -18,7 +18,7 @@ export default class Upload extends Component {
 
   render() {
     return (
-      <UploadTemplate />
+      <UploadTemplate answer={this.state.answer} image={this.state.image}/>
     );
   }
 }
