@@ -17,7 +17,8 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-        <Header />
+          <div id = "googlemaps"/>
+          <Header/>
           <div className="container mainContainer">
             <Switch>
               {routesConfig.map((route, i) => (<RoutesRender key={i} {...route} />))}

@@ -6,13 +6,7 @@ const routesConfig = [
     path: "/",
     show:true,
     exact:true,
-    component: Search
-  },
-  {
-    path: "/upload",
-    show:true,
-    exact:true,
-    component: Upload,
+    component: Upload
   },
   {
     path: "/Approve",

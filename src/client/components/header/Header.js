@@ -1,21 +1,17 @@
 import React from 'react';
 import './header.css';
-import routesConfig from '../../routes/RoutesConfig'
-import RoutesLink from '../../routes/routesLinks'
+import Dropdown from '../dropdown/Dropdown';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 const render = ()=>{
 
 return(
 <div className="app-header" >
     <slot id="header">
-        <div className="icon"></div>
-        <div className="title">Swift Scheme Management System</div>
+        <img id = "menuIcon" src={require('../../assets/menu.svg')}/>
+        <Link to="/Approve"><img id = "logoIcon" src={require('../../assets/app_logo.svg')}/></Link>
+        <img id = "notificationIcon" src={require('../../assets/notifications.svg')}/>
     </slot>
-    <div id="links">
-        {routesConfig.map((route, i) => (
-        <RoutesLink key={i} {...route} />
-        ))}
-    </div>
 </div>
 );
 };

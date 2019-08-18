@@ -1,4 +1,16 @@
 .mainContainer{
   padding: 5px;
+  position: relative;
+  z-index: 1;
+  background: transparent;
+}
+#googlemaps { 
+  height: 100%; 
+  width: 100%; 
+  position:absolute; 
+  top: 0; 
+  left: 0;
+  z-index: 0;
+  background-image: url('../assets/bg.png');
 }
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css');

@@ -1,13 +1,13 @@
 import React from 'react';
+import Dropdown from '../../components/dropdown/Dropdown'
+
+import StartRoutes from '../StartLocations';
+import EndRoutes from '../EndLocations';
 
 const UploadTemplate = (props) => {
 
     return (
-      <div className="jumbotron">
-        <h1 className="display-3">upload</h1>
-        <h3>{props.answer}</h3>
-        <img src={props.image}/>
-      </div>
+      
       );
 };
 

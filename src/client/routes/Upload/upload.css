@@ -23,3 +23,32 @@ body {
   text-align: center;
   margin: auto;
 }
+
+#routeButton{
+  background-color: #5c82e9; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  padding: 4px;
+  border-radius: 5px;
+  width: 200px;
+}
+  .ticket{    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  button{
+    background: transparent;
+    border: 0px;
+  }
+
+  #routeButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
