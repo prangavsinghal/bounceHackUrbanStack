@@ -1,6 +1,6 @@
 const startRoutes = [
   {
-    label: "Diamond District",
+    label: "Qutub Minar, Mehrauli, New Delhi",
     value: 1
   }
 ];

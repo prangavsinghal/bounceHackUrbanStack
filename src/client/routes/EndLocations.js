@@ -1,6 +1,6 @@
 const endRoutes = [
   {
-    label: "Chinnaswamy Stadium",
+    label: "91Springboard, NH8-Udyog Vihar",
     value: 1
   }
 ];

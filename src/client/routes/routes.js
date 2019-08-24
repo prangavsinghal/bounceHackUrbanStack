@@ -2,17 +2,17 @@ const routes = [
 {
     image: 'tile1',
     label: 'Low Cost',
-    priceTime: "41 min | Rs.24"
+    priceTime: "51 min | Rs.28"
   },
   {
     image: 'tile2',
     label: 'Fastest',
-    priceTime: "21 min | Rs.30"
+    priceTime: "44 min | Rs.54"
   },
   {
     image: 'tile3',
     label: 'Recommended',
-    priceTime: "32 min | Rs.32"
+    priceTime: "49 min | Rs.42"
   }
 ];
 
